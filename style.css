@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    max-width: 1300px;
+    min-height: 800px;
+    background-color: #0D1A2D;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+.card {
+    max-width: 300px;
+    height: 550px;
+    background-color: #15273F;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.23);
+}
+img.etherium {
+    width: 100%;
+    border-radius: 20px;
+}
+img.avatar {
+    width: 10%;
+}
+h2 {
+    color: #fcfeff;
+}
+p {
+    color: #637994;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+.information {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+.icon {
+    color: #1EE5E8;
+}
+.time {
+    color: #748AAA;
+
+}
+.profile {
+    color: #7087A6;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile strong {
+    color: #B5C1CF;
+}
